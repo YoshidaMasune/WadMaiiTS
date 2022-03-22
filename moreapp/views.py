@@ -8,3 +8,6 @@ def signin(request):
 
 def createuser(request):
     return render(request, 'register.html')
+
+def about(request):
+    return render(request, 'about.html')
