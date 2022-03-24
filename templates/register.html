@@ -8,6 +8,7 @@
     <title>MaiTS</title>
 </head>
 <body>
+
     {% include 'navbar.html' %}
 
     
@@ -22,7 +23,7 @@
           
                           <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Sign up</p>
           
-                          <form class="mx-1 mx-md-4" action="/login" method="post">
+                          <form class="mx-1 mx-md-4" action="/createuser/" method="post">
                             
                             {% csrf_token %}
 
